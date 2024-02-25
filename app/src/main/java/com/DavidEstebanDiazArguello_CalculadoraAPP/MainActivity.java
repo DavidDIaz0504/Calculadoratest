@@ -134,8 +134,7 @@ public class MainActivity extends AppCompatActivity {
                     result = firstNum-secondNum;
                     break;
                 case "%":
-                    double perRes = secondNum/100;
-                    result = firstNum * perRes;
+                    result= (firstNum * secondNum) / 100;
                     break;
                 default:
                     result = firstNum+secondNum;

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/circuits"
+    android:background="@drawable/fondcl"
     android:padding="20dp"
     tools:ignore="ExtraText">
 
@@ -47,7 +47,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="10dp"
-                android:text="Cnf" />
+                android:text="CRD" />
 
             <Button
                 android:id="@+id/n7"

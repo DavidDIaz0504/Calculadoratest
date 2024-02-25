@@ -24,6 +24,15 @@ public class Maincntf extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button btnCerrar = (Button) findViewById(R.id.btnCerrar);
+
+        btnCerrar.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                finishAffinity();
+                System.exit(0);
+            }
+        });
     }
 
 }
